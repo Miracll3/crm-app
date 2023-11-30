@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,500&display=swap');
+
+
+html, body, body *{
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+.bg-brown{
+    background-color: #731f08 !important;
+}
+.bg-blue-light{background-color: #829fa7 !important;}
+
+
+/* Font sizes */
+.fs-7{ font-size: 7px;}
+.fs-8{ font-size: 8px;}
+.fs-9{ font-size: 9px;}
+.fs-10{ font-size: 10px;}
+.fs-12{ font-size: 12px;}
+.fs-13{ font-size: 13px;}
+.fs-14{ font-size: 14px;}
+.fs-15{ font-size: 15px;}
+.fs-16{ font-size: 16px;}
+.fs-17{ font-size: 17px;}
+.fs-18{ font-size: 18px;}
+.fs-19{ font-size: 19px;}
+.fs-20{ font-size: 20px;}
+.fs-21{ font-size: 21px;}
+.fs-22{ font-size: 22px;}
+.fs-23{ font-size: 23px;}
+.fs-24{ font-size: 24px;}
+.fs-25{ font-size: 25px;}
+.fs-26{ font-size: 26px;}
+.fs-27{ font-size: 27px;}
+.fs-28{ font-size: 28px;}
+.fs-29{ font-size: 29px;}
+.fs-30{ font-size: 30px;}
+.fs-31{ font-size: 31px;}
+.fs-32{ font-size: 32px;}
+.fs-33{ font-size: 33px;}
+.fs-34{ font-size: 34px;}
+.fs-35{ font-size: 35px;}
+.fs-40{ font-size: 40px;}
+.fs-60{ font-size: 60px;}
+
+/* End of Font Sizes */
+
+/* Font Weights */
+.fw-200 {
+    font-weight: 200 !important;
+}
+.fw-300 {
+    font-weight: 300 !important;
+}
+.fw-400 {
+    font-weight: 400 !important;
+}
+.fw-500 {
+    font-weight: 500 !important;
+}
+.fw-600 {
+    font-weight: 600 !important;
+}
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+
+
+
+
+
+.alert-error{
+    border: 1px solid #731f08;
+    background: #731f0830;
+}
+
+input.form-control{
+    font-weight: 300 !important;
+    border: none !important;
+    border-radius: 15px;
+    font-size: 14px;
+}
+footer, footer a{
+    color: #8E8E8E;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+footer a:hover{
+    color: #000;
+    /* text-decoration: underline; */
+}
+.main-body-col.customer-layout{
+    background: #fff;
+}
+.main-body-col{
+    min-width: calc(100% - 250px); /* 100% - (sidebar width) */
+    background: #F8F8F8;
+    min-height: calc(100vh - 114px) !important; /* 100vh - (footer height + top-nav height) */
+    transition: all 0.3s ease-in-out;
+}
+body{
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.w-fit{
+    width: fit-content;
+}
+.h-fit{height: fit-content;}
+.auth-bg{
+    background: rgb(255,254,254);
+    background: linear-gradient(0deg, rgba(255,254,254,1) 48%, rgba(115, 31, 8, .9)  48%);
+}
+
+/* tailwind override collapse */
+.collapse{
+    visibility: visible;
+}
