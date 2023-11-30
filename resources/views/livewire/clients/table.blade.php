@@ -8,7 +8,7 @@
         </div>
     </div>
     <div class="table-responsive">
-        <table class="table">
+        <table class="table table-borderless text-center">
             <thead>
                 <tr>
                     <th scope="col">UUID</th>

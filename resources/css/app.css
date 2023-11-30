@@ -83,6 +83,9 @@ html, body, body *{
     background: #731f0830;
 }
 
+input.form-control ~ span i{
+    color: #731f08;
+}
 input.form-control{
     font-weight: 300 !important;
     border: none !important;
@@ -126,4 +129,29 @@ body{
 /* tailwind override collapse */
 .collapse{
     visibility: visible;
+}
+
+.table{
+    border-collapse: separate;
+    border-spacing:0 24px;
+}
+.table tbody tr{
+    background: rgba(115, 31, 8, .05) !important;
+    font-size: 14px;
+    font-weight: 400;
+}
+.table>:not(caption)>*>*{
+    background-color: unset;
+}
+tbody td,
+thead th{
+    color: #3f1104 !important;
+    position: relative;
+    vertical-align: middle;
+    padding: 1rem .5rem;
+    /* max-width: 100px; */
+}
+tbody td a {color: #731f08 !important;}
+tbody td{
+    padding: .407rem .25rem;
 }
