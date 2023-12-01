@@ -151,7 +151,11 @@ thead th{
     padding: 1rem .5rem;
     /* max-width: 100px; */
 }
-tbody td a {color: #731f08 !important;}
+
 tbody td{
     padding: .407rem .25rem;
+}
+
+.btn.w-fit.px-4.fw-bold.fs-14.bg-brown.text-white {
+    padding: 0.8rem 1.5rem !important;
 }
