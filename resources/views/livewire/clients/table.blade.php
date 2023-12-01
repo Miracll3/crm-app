@@ -24,8 +24,7 @@
             <tbody>
                 @forelse ($clients as $client)
                 <tr>
-                    <td><a href="#" style="color:black;">{{$client->uuid
-                            }}</a></td>
+                    <td>{{$client->uuid}}</td>
                     <td>{{$client->first_name}} {{$client->last_name}}</td>
                     <td>{{$client->email}}</td>
                     <td>{{$client->id_number}}</td>
